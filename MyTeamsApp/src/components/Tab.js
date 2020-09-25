@@ -21,11 +21,12 @@ class Tab extends React.Component {
   //Learn more: https://reactjs.org/docs/react-component.html#componentdidmount
   componentDidMount(){
     // Get the user context from Teams and set it in the state
+    /*
     microsoftTeams.getContext((context, error) => {
       this.setState({
         context: context
       });
-    });
+    });*/
     // Next steps: Error handling using the error object
   }
 
@@ -35,7 +36,7 @@ class Tab extends React.Component {
 
       return (
       <div>
-        <h1>Congratulations {userName}!</h1> <h3>This is the tab you made :-)</h3>
+        <h1>Congratulations {userName}!</h1> <h3>This is the tab you made :-) i love you guys (sometimes)</h3>
       </div>
       );
   }

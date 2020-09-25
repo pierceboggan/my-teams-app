@@ -26,13 +26,13 @@ function App() {
         <Router>
           <Route exact path="/privacy" component={Privacy} />
           <Route exact path="/termsofuse" component={TermsOfUse} />
-          <Route exact path="/tab" component={TeamsHostError} />
+          <Route exact path="/tab" component={Tab} />
         </Router>        
       );
     }
 
     // Initialize the Microsoft Teams SDK
-    microsoftTeams.initialize(window);
+    // microsoftTeams.initialize(window);
 
     // Display the app home page hosted in Teams
     return (
