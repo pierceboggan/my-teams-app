@@ -1,5 +1,8 @@
 {
   "containerEnv": {
     "TEAMS_CLOUD_DEPLOYMENT_ENV": "pierce"
+  },
+  "remoteEnv": {
+    "TEAMS_CLOUD_DEPLOYMENT_ENV": "pierce"
   }
 }
